@@ -1,0 +1,20 @@
+{
+  "name": "rpg-game",
+  "version": "1.0.0",
+  "description": "Turn-based multiplayer RPG with Phaser",
+  "main": "server/multiplayer.js",
+  "scripts": {
+    "start": "node server/multiplayer.js",
+    "dev": "nodemon server/multiplayer.js"
+  },
+  "keywords": ["rpg", "game", "phaser", "multiplayer"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
